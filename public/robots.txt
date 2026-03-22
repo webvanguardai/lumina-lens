@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luminalens.vercel.app/sitemap.xml
