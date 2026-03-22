@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'Lumina Lens Studio' }],
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://luminalens.vercel.app',
+    canonical: 'https://lumina-lens-six.vercel.app',
   },
   openGraph: {
     type: 'website',
     locale: 'en_AE',
-    url: 'https://luminalens.vercel.app',
+    url: 'https://lumina-lens-six.vercel.app',
     title: 'Lumina Lens Studio | Premium Photography Dubai',
     description: 'Dubai\'s premier photography studio. Editorial, luxury brand & lifestyle photography that defines the extraordinary.',
     siteName: 'Lumina Lens Studio',

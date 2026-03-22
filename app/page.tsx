@@ -9,7 +9,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'Lumina Lens Studio',
   description: 'Premium photography studio in Dubai specializing in editorial, luxury brand, and lifestyle photography.',
-  url: 'https://luminalens.vercel.app',
+  url: 'https://lumina-lens-six.vercel.app',
   telephone: '+971-50-000-0001',
   address: {
     '@type': 'PostalAddress',
