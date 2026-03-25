@@ -162,7 +162,7 @@ export default function Home() {
           <a href="#services" className="hover:text-[#00E5FF] transition-colors">Services</a>
           <a href="#about" className="hover:text-[#00E5FF] transition-colors">About</a>
           <a href="#gallery" className="hover:text-[#00E5FF] transition-colors">Gallery</a>
-          <a href="#contact" className="bg-[#00E5FF] text-black px-5 py-2 font-semibold hover:bg-white transition-colors">Book Now</a>
+          <a href="#contact" className="bg-[#00E5FF] text-black px-5 py-2 font-semibold hover:bg-white transition-colors">Commission Work</a>
         </motion.div>
       </nav>
 
@@ -198,9 +198,9 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-display font-bold text-5xl md:text-7xl lg:text-8xl leading-none mb-6"
           >
-            Where Light<br />
-            <em className="text-[#00E5FF] not-italic">Becomes</em><br />
-            Legacy
+            Light.<br />
+            <em className="text-[#00E5FF] not-italic">Never</em><br />
+            Ordinary.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -208,7 +208,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-white/70 text-lg md:text-xl max-w-xl mb-10"
           >
-            Dubai&apos;s most sought-after photography studio. Editorial precision. Luxury brand campaigns. Visual stories that endure.
+            Editorial. Brand. Architecture. Shot in Dubai — seen everywhere.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -220,7 +220,7 @@ export default function Home() {
               VIEW PORTFOLIO
             </a>
             <a href="#contact" className="border border-white/30 text-white px-8 py-4 font-semibold text-sm tracking-wide hover:border-[#00E5FF] hover:text-[#00E5FF] transition-colors">
-              BOOK A SHOOT
+              COMMISSION A SESSION
             </a>
           </motion.div>
         </motion.div>
@@ -259,9 +259,9 @@ export default function Home() {
           >
             <p className="text-[#00E5FF] text-xs tracking-[0.3em] uppercase mb-4">What We Do</p>
             <h2 className="font-display font-bold text-4xl md:text-5xl mb-4">
-              Services & <em className="not-italic text-[#00E5FF]">Pricing</em>
+              The Work We <em className="not-italic text-[#00E5FF]">Do</em>
             </h2>
-            <p className="text-white/50 max-w-xl">Every frame is intentional. Every project is bespoke. Pricing reflects the dedication to craft.</p>
+            <p className="text-white/50 max-w-xl">Every frame intentional. Every project bespoke. Minimum investment reflects the time each image deserves.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5">
@@ -320,15 +320,14 @@ export default function Home() {
             >
               <p className="text-[#00E5FF] text-xs tracking-[0.3em] uppercase mb-6">Our Story</p>
               <h2 className="font-display font-bold text-4xl md:text-5xl mb-6 leading-tight">
-                Crafted in<br />
-                <em className="not-italic text-[#00E5FF]">light</em>. Built<br />
-                on precision.
+                Six photographers.<br />
+                <em className="not-italic text-[#00E5FF]">One</em> standard.
               </h2>
               <p className="text-white/60 mb-6 leading-relaxed">
-                Founded in Dubai Design District in 2019, Lumina Lens Studio was born from a singular obsession: photography that doesn&apos;t just document — it transforms. Our team of six specialists brings together fashion, architecture, and brand photography under one creative roof.
+                Founded in Dubai Design District in 2019. Six specialist photographers — fashion, architecture, brand, lifestyle. Three studio spaces. One rule: we don&apos;t deliver mediocre frames.
               </p>
               <p className="text-white/60 mb-8 leading-relaxed">
-                We work with Dubai&apos;s most ambitious brands, from emerging designers to established luxury houses. Every project starts with a conversation about your vision, and ends with images that exceed it.
+                Our clients include luxury houses, emerging designers, and brands that understand the difference a single image makes. Shortlisted: Gulf Photo Plus Awards 2024. Published: Vogue Arabia, Architectural Digest ME.
               </p>
               <div className="grid grid-cols-2 gap-6 mb-8">
                 {[
@@ -344,7 +343,7 @@ export default function Home() {
                 ))}
               </div>
               <a href="#contact" className="inline-flex items-center gap-2 bg-[#00E5FF] text-black px-8 py-4 font-semibold text-sm tracking-wide hover:bg-white transition-colors">
-                START YOUR PROJECT →
+                COMMISSION A SESSION →
               </a>
             </motion.div>
           </div>
@@ -451,12 +450,12 @@ export default function Home() {
             >
               <p className="text-[#00E5FF] text-xs tracking-[0.3em] uppercase mb-6">Get in Touch</p>
               <h2 className="font-display font-bold text-4xl md:text-5xl mb-6">
-                Let&apos;s Create<br />
+                Commission<br />
                 <em className="not-italic text-[#00E5FF]">Something</em><br />
-                Extraordinary
+                Permanent
               </h2>
               <p className="text-white/50 mb-10 leading-relaxed">
-                Tell us about your project. We&apos;ll respond within 24 hours with a bespoke proposal tailored to your creative vision.
+                Tell us the concept, the feeling, the deadline. We respond within 24 hours with a bespoke proposal — not a template.
               </p>
               <div className="space-y-6">
                 {[
@@ -561,7 +560,7 @@ export default function Home() {
                   type="submit"
                   className="w-full bg-[#00E5FF] text-black py-4 font-bold text-sm tracking-widest hover:bg-white transition-colors uppercase"
                 >
-                  Request a Proposal
+                  Commission This Session
                 </button>
               </form>
             </motion.div>
