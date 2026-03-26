@@ -598,7 +598,7 @@ export default function Home() {
 
       {/* WhatsApp floating button */}
       <a
-        href="https://wa.me/971500000001?text=Hello%20Lumina%20Lens%2C%20I%20would%20like%20to%20enquire%20about%20a%20photography%20project."
+        href="https://wa.me/971585324519?text=Hello%20Lumina%20Lens%2C%20I%20would%20like%20to%20enquire%20about%20a%20photography%20project."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] flex items-center justify-center shadow-lg hover:bg-[#1EBE5D] transition-colors"
