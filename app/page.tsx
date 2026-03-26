@@ -565,6 +565,20 @@ export default function Home() {
               </form>
             </motion.div>
           </div>
+
+          {/* Google Maps */}
+          <div className="mt-16">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.2!2d55.2744!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682b9b2f7f63%3A0x1!2sDowntown+Dubai!5e0!3m2!1sen!2sae!4v1711449600000"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lumina Lens location — Downtown Dubai"
+            />
+          </div>
         </div>
       </section>
 
